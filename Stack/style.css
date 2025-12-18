@@ -1,0 +1,58 @@
+#myinput{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 50px;
+    background-color: rgb(1, 36, 140);
+    border: solid 5px;
+}
+.mybutton{
+    background-color: gold;
+    border-radius: 10px;
+    width: 70px;
+
+}
+#mytext{
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 350px;
+    border: solid 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#mystack{
+    display: block;
+    margin: 0 auto;
+    background-color:  rgb(116, 116, 116);
+    border: solid 2px;
+    width: 500px;
+    border-radius: 10px;
+   
+
+}
+li{ 
+     display: block;
+      justify-content: center;
+    align-content: center;
+    border:2px solid;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 5px;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    
+}
+body{
+    background-color: rgb(53, 31, 76);
+}
+#currantWord{
+     display: flex;
+    justify-content: center;
+    color: wheat;
+}
