@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project</title>
+    
+ <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <form id="myContent">
+    
+    <label for="weight">weight (kg) :</label>
+    <input type="number" value="70" id="weight" class="input">
+     <br> <br>
+    <label for="height">height (cm) :</label>
+    <input type="number" value="170" id="height" class="input">
+    <!--we have just the average mesures as initial values , it looked like a smart idea-->
+    <br>
+    <p id="warning"> </p>
+     <br> 
+    <button type="submit" id="mySubmit" onclick="Calculate()">Calculate</button>
+    <br>
+    
+    </form>
+    <div id="myRes">
+
+     <p id="bmi">THE RESULT IS! :</p>
+     <br> 
+     <p id="judgment"></p>
+    <script src="index.js"></script>
+    </div>
+</body>
+</html>

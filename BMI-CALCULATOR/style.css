@@ -1,0 +1,45 @@
+#myContent{
+    display: block;
+    margin: 0 auto ;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border:  solid;
+    border-radius: 15px;
+    border-color: black;
+    background-color: royalblue;
+    width: 500px;
+}
+#mySubmit{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+body{
+    background-color: darkblue;
+}
+label{
+    color: white;
+    font-size: large;
+}
+#myRes{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(42, 3, 148);
+    height: 130px;
+}
+#warning{
+    color: rgb(255, 0, 0);
+    font-size: large;
+}
+input{
+    width: 50px;
+    border-radius: 5px;
+}
